@@ -1,0 +1,21 @@
+
+#include<iostream.h>
+#include<conio.h>
+#include<string.h>
+ int _tmain(int argc, _TCHAR* argv[])
+{
+char s1[6];
+cout<<" vvedite 4etirexzna4noe 4islo = ";
+cin.getline(s1,6);
+if(strlen(s1)!=4){
+cout<<"\n"<<"EROR"; getch();return 0;
+}
+if(s1[2]=='0'){
+cout<<"Otvet = "<<s1[3]<<s1[0]<<s1[1];
+}
+else {
+cout<<"Otvet = "<<s1[2]<<s1[3]<<s1[0]<<s1[1];
+}
+getch();
+return 0;
+}
